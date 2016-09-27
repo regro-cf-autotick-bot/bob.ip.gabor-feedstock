@@ -1,4 +1,4 @@
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 
 package:
   name: bob.ip.gabor
@@ -6,11 +6,11 @@ package:
 
 source:
   fn: bob.ip.gabor-{{ version }}.zip
-  url: https://pypi.python.org/packages/source/b/bob.ip.gabor/bob.ip.gabor-{{ version }}.zip
-  md5: c1c8e79a8cc04f3b822de1db28e5d0f5
+  url: https://pypi.io/packages/source/b/bob.ip.gabor/bob.ip.gabor-{{ version }}.zip
+  md5: b794d71de7577c6765cc245ad1653d95
 
 build:
-  number: 3
+  number: 0
   skip: true  # [win]
 
 requirements:
@@ -50,7 +50,7 @@ test:
     - nose
 
 about:
-  home: http://github.com/bioidiap/bob.ip.gabor
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: C++ code and Python bindings for Bob's Gabor wavelet analysis tools
 
