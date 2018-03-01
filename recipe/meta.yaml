@@ -1,4 +1,4 @@
-{% set version = "2.0.7" %}
+{% set version = "2.0.11" %}
 
 package:
   name: bob.ip.gabor
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.ip.gabor-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.ip.gabor/bob.ip.gabor-{{ version }}.zip
-  md5: 412844eccbc36c8a493f3846b6b8d736
+  md5: 3c21ab0101623ca60f9d39d7a9f886e0
 
 build:
   number: 0
